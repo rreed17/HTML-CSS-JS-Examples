@@ -1,0 +1,7 @@
+body{
+    margin: 20rem 10rem;
+    background: #333;
+    display: flex;
+    align-content: center;
+    min-height: 100vh;
+}

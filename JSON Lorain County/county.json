@@ -1,0 +1,138 @@
+[
+    {
+        "type": "city",
+        "name": "Amherst"
+    },
+    {
+        "type": "city",
+        "name": "Avon"
+    },
+    {
+        "type": "city",
+        "name": "Avon Lake"
+    },
+    {
+        "type": "city",
+        "name": "Elyria"
+    },
+    {
+        "type": "city",
+        "name": "Lorain"
+    },
+    {
+        "type": "city",
+        "name": "North Ridgeville"
+    },
+    {
+        "type": "city",
+        "name": "Oberlin"
+    },
+    {
+        "type": "city",
+        "name": "Sheffield Lake"
+    },
+    {
+        "type": "city",
+        "name": "Vermillion"
+    },
+    {
+        "type": "villages",
+        "name": "Grafton"
+    },
+    {
+        "type": "villages",
+        "name": "Kipton"
+    },
+    {
+        "type": "villages",
+        "name": "LaGrange"
+    },
+    {
+        "type": "villages",
+        "name": "Rochester"
+    },
+    {
+        "type": "villages",
+        "name": "Sheffield"
+    },
+    {
+        "type": "villages",
+        "name": "South Amherst"
+    },
+    {
+        "type": "villages",
+        "name": "Wellington"
+    },
+    {
+        "type": "townships",
+        "name": "Amherst"
+    },
+    {
+        "type": "townships",
+        "name": "Brighton"
+    },
+    {
+        "type": "townships",
+        "name": "Brownhelm"
+    },
+    {
+        "type": "townships",
+        "name": "Camden"
+    },
+    {
+        "type": "townships",
+        "name": "Carlisle"
+    },
+    {
+        "type": "townships",
+        "name": "Columbia"
+    },
+    {
+        "type": "townships",
+        "name": "Eaton"
+    },
+    {
+        "type": "townships",
+        "name": "Elyria"
+    },
+    {
+        "type": "townships",
+        "name": "Grafton"
+    },
+    {
+        "type": "townships",
+        "name": "Henrietta"
+    },
+    {
+        "type": "townships",
+        "name": "Huntington"
+    },
+    {
+        "type": "townships",
+        "name": "LaGrange"
+    },
+    {
+        "type": "townships",
+        "name": "New Russia"
+    },
+    {
+        "type": "townships",
+        "name": "Penfield"
+    },
+    {
+        "type": "townships",
+        "name": "Pittsfield"
+    },
+    {
+        "type": "townships",
+        "name": "Rochester"
+    },
+    {
+        "type": "townships",
+        "name": "Sheffield"
+    },
+    {
+        "type": "townships",
+        "name": "Wellington"
+    }
+]
