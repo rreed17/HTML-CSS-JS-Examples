@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JS Help</title>
+</head>
+<body>
+    <h2>Console.log</h2>
+    <ul>
+        <li></li>
+    </ul>
+</body>
+<script>
+    //Point 1: Console log like a champ
+    const foo = {name: 'tom', age: 30, nervous: false};
+    const bar = {name: 'sam', age: 40, nervous: false};
+    const baz = {name: 'harry', age: 50, nervous: true};
+    //Bad Code
+    console.log(foo);
+    console.log(bar);
+    console.log(baz);
+    //Good Code Computed Property Names
+    console.log('%c My Friends', 'color: orange;'); // %c adds custom css styles to code
+    console.log({foo, bar, baz});
+
+    //When objects contain same propertys make you can console log a table
+    console.table([foo, bar, baz]);
+
+    //Benchmark for time 
+    console.time('looper');
+
+    let i = 0;
+    while(i < 1000000){
+        i++
+    }
+    console.timeEnd('looper');
+
+    //Stack Trace Logs
+    const deletMe = () => console.trace('bye bye database');
+
+    deletMe();
+    deletMe();
+
+    //Point 2: Destructuring
+    // Create a function that tells how to feed this animal (object)
+    const turtle = {
+        name: 'Bob',
+        legs: 4,
+        shell: true,
+        type: 'amphibious',
+        meal: 10,
+        diet: 'berries'
+    }
+   
+
+    //Template-literals
+    horse = "";
+    const {name, size, skills} = horse;
+
+    bio = `${name} is a ${size} skilled in `;
+
+    console.log(bio);
+
+    //Spread Syntax
+    const pikachu = {name: 'Pikach'};
+    const stats = {hp: 40, attack: 60, defence: 45};
+
+    
+
+
+</script>
+</html>
