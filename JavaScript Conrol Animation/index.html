@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Trigger Transitions Control Animation JS</title>
+</head>
+<body>
+    <section>
+        <h2>Background Change with transition</h2>
+        <button onclick="changeBG('box1','#F0F');">Magenta</button>
+        <button onclick="changeBG('box1','#0c0');">Green</button>
+        <button onclick="changeBG('box1','#9DCEFF');">Original</button>
+        <div id="box1">Content in box 1</div>
+    </section>
+    <section>
+        <h2>Fade In/Out</h2>
+        <button onclick="fadeOut('box2');">Fade Out</button>
+        <button onclick="fadeIn('box2');">Fade In</button>
+    <div id="box2">Fade Out</div>
+    </section>
+    <section>
+            <h2>Slide Open/Close</h2>
+            <button onclick="slideOpen('box3');">Slide Open</button>
+            <button onclick="slideClose('box3');">Slide Close</button>
+        <div id="box3">Fade Out</div>
+        </section>
+        <section>
+                <h2>Slide In/Out</h2>
+                <button onclick="slideIn('box4');">Slide In</button>
+                <button onclick="slideOut('box4');">Slide Out</button>
+            <div id="box4">Fade Out</div>
+            </section>
+    
+    <script>
+        function changeBG(el,clr){
+            var elem = document.getElementById(el);
+            elem.style.transition = "background 1.0s linear 0s";
+            elem.style.background = clr;
+        }
+        function fadeOut(el){
+            var elem = document.getElementById(el);
+            elem.style.transition = "opacity 1.0s ease-out 0s";
+            elem.style.opacity = 0;
+        }
+        function fadeIn(el){
+            var elem = document.getElementById(el);
+            elem.style.transition = "opacity 1.0s ease-out 0s";
+            elem.style.opacity = 1;
+        }
+        function slideOpen(el){
+            var elem = document.getElementById(el);
+            elem.style.transition = "height 1.0s ease-out 0s";
+            elem.style.height = '200px';
+        }
+        function slideClose(el){
+            var elem = document.getElementById(el);
+            elem.style.transition = "height 1.0s ease-out 0s";
+            elem.style.height = '0px';
+        }
+        function slideIn(el){
+            var elem = document.getElementById(el);
+            elem.style.transition = "left 1.0s ease-out 0s";
+            elem.style.left = '0px';
+        }
+        function slideOut(el){
+            var elem = document.getElementById(el);
+            elem.style.transition = "left 1.0s ease-out 0s";
+            elem.style.left = '-400px';
+        }
+    </script>
+</body>
+</html>
