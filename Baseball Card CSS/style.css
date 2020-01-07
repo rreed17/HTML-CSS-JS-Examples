@@ -1,0 +1,88 @@
+body{
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+}
+
+.card{
+    position: relative;
+    height: 300px;
+    width: 200px;
+    border: 15px rgb(170, 121, 57) solid;
+}
+
+.card::before, .card::after{
+    content:'';
+}
+
+.card::before{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 8;
+    border-top: 60px solid rgb(170, 121, 57);
+    border-right: 60px solid transparent;
+}
+
+.card::after{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 5;
+    border-top: 62px solid rgb(0, 0, 0);
+    border-right: 62px solid transparent;
+}
+
+.team_logo {
+    position: absolute;
+    z-index: 15;
+    width: 100px;
+    height: 30px;
+    top: 5px;
+    left:-5px;
+  }
+  
+  .player {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    height: 296px;
+    width: 196px;
+    border: 2px rgb(0, 0, 0) solid;
+  }
+
+  figcaption {
+    position: absolute;
+    bottom: -10px;
+    right: 0;
+    width: 75%;
+    height: 30px;
+    text-align: center;
+    font-size: 100%;
+    background: rgb(200, 0, 0);
+    border: 2px rgb(0, 0, 0) solid;
+    z-index: 10;
+}
+
+
+figcaption::before, figcaption::after {
+    content: '';
+  }
+  
+  figcaption::before {
+    position: absolute;
+    bottom: 32px;
+    right: -2px;
+    z-index: 18;
+    border-bottom: 15px solid rgb(170, 121, 57);
+    border-left: 15px solid transparent;
+  }
+
+  figcaption::after {
+    position: absolute;
+    bottom: 32px;
+    right: -2px;
+    z-index: 15;
+    border-bottom: 17px solid rgb(0, 0, 0);
+    border-left: 17px solid transparent;
+  }
